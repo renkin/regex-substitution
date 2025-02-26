@@ -4,6 +4,11 @@
 
 The version number follow the the [Semantic Versioning](https://semver.org/).
 
+## 1.1.0
+
+- Python scripts added together with test files:
+  - convert-phind-to-redmine.py
+
 ## 1.0.0
 
 - Python scripts added:

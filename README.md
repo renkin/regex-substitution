@@ -4,10 +4,11 @@
 
 The repository contains a Python scripts to do multiline substitutions using regular expressions.
 
-The script is used for some automated migrations:
+The script is used for some automated migrations/conversions:
 
 - Migrate from JUnit 4 to 5
 - Update versions in POM
+- Convert a phind answer into Redmine syntax
 
 ### How do I get set up? ###
 
