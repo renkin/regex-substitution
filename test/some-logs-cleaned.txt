@@ -1,0 +1,9 @@
+2025-03-12 10:10:54.859 DEBUG 74761 localhost --- [nio-9002-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /login
+2025-03-12 10:10:54.860 TRACE 74761 localhost --- [nio-9002-exec-5] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/16)
+2025-03-12 10:10:54.860 TRACE 74761 localhost --- [nio-9002-exec-5] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/16)
+2025-03-12 10:10:54.860 TRACE 74761 localhost --- [nio-9002-exec-5] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/16)
+2025-03-12 10:10:54.861 TRACE 74761 localhost --- [nio-9002-exec-5] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/16)
+2025-03-12 10:10:54.861 TRACE 74761 localhost --- [nio-9002-exec-5] o.s.security.web.FilterChainProxy        : Invoking CsrfFilter (5/16)
+2025-03-12 10:10:54.861 TRACE 74761 localhost --- [nio-9002-exec-5] o.s.security.web.csrf.CsrfFilter         : Did not protect against CSRF since request did not match CsrfNotRequired [TRACE, HEAD, GET, OPTIONS]
+2025-03-12 10:10:54.861 TRACE 74761 localhost --- [nio-9002-exec-5] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (6/16)
+2025-03-12 10:10:54.861 TRACE 74761 localhost --- [nio-9002-exec-5] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Ant [pattern='/logout', POST]

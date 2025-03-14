@@ -8,6 +8,7 @@ The version number follow the the [Semantic Versioning](https://semver.org/).
 
 - Python scripts added together with test files:
   - convert-phind-to-redmine.py
+  - remove-meta-sequences-from-log.py
 
 ## 1.0.0
 

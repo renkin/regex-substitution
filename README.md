@@ -7,8 +7,10 @@ The repository contains a Python scripts to do multiline substitutions using reg
 The script is used for some automated migrations/conversions:
 
 - Migrate from JUnit 4 to 5
+- Migrate from SpringFox to Springdoc Open API
 - Update versions in POM
 - Convert a phind answer into Redmine syntax
+- Remove meta sequences (for colors) from e.g. logs
 
 ### How do I get set up? ###
 

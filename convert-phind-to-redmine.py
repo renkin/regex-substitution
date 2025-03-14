@@ -5,6 +5,7 @@ from substitution import *
 if __name__ == "__main__":
     execution_directory = os.getcwd()
     
+    # Modify all files following the given RegEx file pattern searching recursivelly within the given directory
     replace(execution_directory, r'phind-to-redmine-converted\.txt', {
         # paragraph headings
         r'###\s+(.*?)$' : r'*\1*',
